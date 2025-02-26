@@ -45,15 +45,19 @@
             </div>
             <div class="card-amigos card">
                 <div class="card-list-title">
-                    <h2>Mienbros</h2>
+                    <h2>Miembros</h2>
                 </div>
                 <div class="card-list">
                     <ul id="lista"></ul>
                 </div>
-                
-            <div class="btn-limpiar">
-                <button class="card-amigos-btn" onclick="Limpiar()"><i class="fa-regular fa-trash-can fa-xs"></i></button>
-            </div>
+                <div class="pagination">
+                    <button id="prevPage" onclick="prevPage()">&#9664;</button>
+                    <span id="pageNumber">1</span>
+                    <button id="nextPage" onclick="nextPage()">&#9654;</button>
+                </div>
+                <div class="btn-limpiar">
+                    <button class="card-amigos-btn" onclick="Limpiar()"><i class="fa-regular fa-trash-can fa-xs"></i></button>
+                </div>
             </div>
         </div>
     </div>
